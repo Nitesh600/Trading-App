@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NotFound() {
   return (
@@ -6,7 +7,9 @@ function NotFound() {
       <div className="row text-center">
         <h2 className="mt-5 ml-10">404 Not Found</h2>
         <p className="fs-6 mt-3 ">
-          Sorry, the page you are looking for does not exists
+          Sorry, the page you are looking <br/> for does not exists Visit &nbsp;
+         <Link to={"/"} style={{textDecoration: "none"}}>Zerodha's home page</Link>
+
         </p>
       
           
