@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function SignUp() {
     return ( 
-        <Link to={"/"}><button>signup</button></Link>
+        <Link to={"https://zerodha-dashboard-phi.vercel.app/holdings"}><button>signup</button></Link>
         
      );
 }
