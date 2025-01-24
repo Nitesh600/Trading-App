@@ -25,8 +25,8 @@ function Navbar() {
             <form class="d-flex" role="search">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link class="nav-link" aria-current="page" to="/signup">
-                   Dashboard
+                <Link class="nav-link" aria-current="page" to="https://auth-client-nine.vercel.app/signup">
+                   SignUp
                 </Link>
               </li>
               <li class="nav-item">
