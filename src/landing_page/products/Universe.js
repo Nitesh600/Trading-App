@@ -53,7 +53,10 @@ and no mis-selling.</p>
         </div>
       
       </div>
-      <button className='p-2 btn btn-primary fs-5 mb-5 mt-4' type="button" style={{width: "20%", marginLeft:  "37%" }}>Sign up for free </button>
+  <Link to="https://auth-client-nine.vercel.app/signup">
+     <button className='p-2 btn btn-primary fs-5 mb-5 mt-4' type="button" style={{width: "20%", marginLeft:  "37%" }}>Sign up for free </button>
+  </Link>
+     
     </div>
   );
 }
